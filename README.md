@@ -8,8 +8,7 @@ A simple and interactive web application that allows users to fetch JSON data fr
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-
+- [Author](#author)
 ---
 
 ## Features
@@ -25,7 +24,7 @@ A simple and interactive web application that allows users to fetch JSON data fr
 ## Demo
 
 - **GitHub Repository**: [View the code](https://github.com/Sushankznation/Json-Fetcher)
-- **Hosted Application**: [View live application](#) *(Add hosted link here if available)*
+- **Hosted Application**: [View live application]([https://json-fetcher-nine.vercel.app/])
 
 ---
 
@@ -58,19 +57,8 @@ A simple and interactive web application that allows users to fetch JSON data fr
 - **Toggle Render Type**: Choose between **HTML** and **Markdown** to render JSON data in different formats.
 - **View Notifications**: Success and error messages appear via toast notifications in the top right corner.
 ---
-## Project Structure 
-Json-Fetcher/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── JsonInput.tsx
-│   │   ├── DisplayArea.tsx
-│   │   ├── RenderOptions.tsx
-│   │   └── AppProvider.tsx
-│   ├── AppContext.tsx
-│   ├── App.tsx
-│   └── index.tsx
-├── .gitignore
-├── package.json
-└── README.md
+## Author
 
+- **Sushant Bherwal**
+  - 📧 Email: [sushantbharwal@gmail.com](mailto:sushantbharwal@gmail.com)
+  - 💼 LinkedIn: [Sushant Bherwal](https://www.linkedin.com/in/sushantbherwal/)
