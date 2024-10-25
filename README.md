@@ -24,7 +24,7 @@ A simple and interactive web application that allows users to fetch JSON data fr
 ## Demo
 
 - **GitHub Repository**: [View the code](https://github.com/Sushankznation/Json-Fetcher)
-- **Hosted Application**: [View live application]([https://json-fetcher-nine.vercel.app/])
+- **Hosted Application**: [View live application](https://json-fetcher-nine.vercel.app/)
 
 ---
 
