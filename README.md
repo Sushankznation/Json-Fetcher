@@ -45,10 +45,12 @@ A simple and interactive web application that allows users to fetch JSON data fr
    ```bash
    git clone https://github.com/Sushankznation/Json-Fetcher.git
    cd Json-Fetcher
-2. **CInstall Dependencies:**
-   ```npm install
-3. **CRun the Application:**
-   ```npm start
+2. **Install Dependencies:**
+   ```bash 
+   npm install
+3. **Run the Application:**
+   ```bash 
+   npm start
 ---
 ## Usage
 
