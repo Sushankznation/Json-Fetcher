@@ -1,50 +1,76 @@
-# React + TypeScript + Vite
+# JSON Fetcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive web application that allows users to fetch JSON data from any API endpoint, view it in multiple formats (HTML/Markdown), and edit JSON content manually. The project was built with React, TypeScript, and Tailwind CSS, with state management handled through React’s Context API and notifications powered by React Toastify.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Fetch JSON Data**: Input any API endpoint and retrieve JSON data by clicking the GET button.
+- **Edit JSON**: Manually edit or input JSON data to view it directly.
+- **HTML and Markdown Rendering**: Choose to render JSON data as HTML or Markdown for easy readability.
+- **Error Notifications**: Displays real-time success and error notifications using React Toastify.
+- **Responsive Design**: Optimized layout for mobile and desktop screens using Tailwind CSS.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Demo
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **GitHub Repository**: [View the code](https://github.com/Sushankznation/Json-Fetcher)
+- **Hosted Application**: [View live application](#) *(Add hosted link here if available)*
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Technologies Used
+
+- **React** with TypeScript for building a dynamic, type-safe UI
+- **React Context API** for state management across components
+- **Tailwind CSS** for responsive styling
+- **React Toastify** for elegant notifications
+- **Axios** for API requests
+- **React Markdown** for Markdown rendering
+
+---
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Sushankznation/Json-Fetcher.git
+   cd Json-Fetcher
+2. **CInstall Dependencies:**
+   ```npm install
+3. **CRun the Application:**
+   ```npm start
+---
+## Usage
+
+- **Fetch Data**: Enter an API URL in the input field and click **GET** to fetch JSON data.
+- **Edit JSON**: Manually enter JSON data in the text area, and click **Update JSON** to render it.
+- **Toggle Render Type**: Choose between **HTML** and **Markdown** to render JSON data in different formats.
+- **View Notifications**: Success and error messages appear via toast notifications in the top right corner.
+---
+## Project Structure 
+Json-Fetcher/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── JsonInput.tsx
+│   │   ├── DisplayArea.tsx
+│   │   ├── RenderOptions.tsx
+│   │   └── AppProvider.tsx
+│   ├── AppContext.tsx
+│   ├── App.tsx
+│   └── index.tsx
+├── .gitignore
+├── package.json
+└── README.md
+
